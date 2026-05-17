@@ -10,18 +10,6 @@ coverage
 
 # Cloudflare
 .wrangler
-worker-configuration.d.ts
-
-# nitro
-.nitro/
-.output/
-
-# expo
-.expo/
-expo-env.d.ts
-apps/expo/.gitignore
-apps/expo/ios
-apps/expo/android
 
 # production
 build
@@ -47,9 +35,6 @@ yarn-error.log*
 *.db-shm
 .datastore
 .datastore-*
-
-# vercel
-.vercel
 
 # typescript
 dist/
