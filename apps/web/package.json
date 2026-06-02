@@ -54,7 +54,7 @@
     "prettier": "catalog:",
     "typescript": "catalog:",
     "vite": "^8.0.16",
-    "vitest": "^4.1.7",
+    "vitest": "^4.1.8",
     "wrangler": "^4.95.0"
   },
   "pnpm": {
