@@ -20,7 +20,7 @@
   "dependencies": {
     "@acme/auth": "workspace:*",
     "@acme/db": "workspace:*",
-    "hono": "^4.12.23"
+    "hono": "^4.12.24"
   },
   "devDependencies": {
     "@acme/eslint-config": "workspace:^",
