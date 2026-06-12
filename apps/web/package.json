@@ -23,7 +23,7 @@
     "@acme/api": "workspace:*",
     "@acme/auth": "workspace:*",
     "@acme/db": "workspace:*",
-    "@cloudflare/vite-plugin": "^1.40.1",
+    "@cloudflare/vite-plugin": "^1.40.2",
     "@tailwindcss/vite": "^4.3.0",
     "@tanstack/react-devtools": "latest",
     "@tanstack/react-router": "latest",
