@@ -31,8 +31,8 @@ catalogs:
       specifier: ^6.0.3
       version: 6.0.3
     zod:
-      specifier: ^4.5.4
-      version: 4.5.4
+      specifier: ^4.6.2
+      version: 4.6.2
 
 importers:
 
@@ -238,10 +238,10 @@ importers:
         version: 0.45.2(@libsql/client@0.18.0)(@prisma/client@5.22.0)(@types/pg@8.20.0)(better-sqlite3@12.10.0)(kysely@0.28.17)(pg@8.20.0)
       drizzle-zod:
         specifier: ^0.8.3
-        version: 0.8.3(drizzle-orm@0.45.2(@libsql/client@0.18.0)(@prisma/client@5.22.0)(@types/pg@8.20.0)(better-sqlite3@12.10.0)(kysely@0.28.17)(pg@8.20.0))(zod@4.5.4)
+        version: 0.8.3(drizzle-orm@0.45.2(@libsql/client@0.18.0)(@prisma/client@5.22.0)(@types/pg@8.20.0)(better-sqlite3@12.10.0)(kysely@0.28.17)(pg@8.20.0))(zod@4.6.2)
       zod:
         specifier: 'catalog:'
-        version: 4.5.4
+        version: 4.6.2
     devDependencies:
       '@acme/eslint-config':
         specifier: workspace:*
@@ -5305,6 +5305,9 @@ packages:
   zod@4.5.4:
     resolution: {integrity: sha512-sC95tT5iHHH9gtpj6A81kh+NEaRAUFN+qlUPDUbRfOMvNf5QCBqsb3WgvnpVtK5Y+4UfA6KqufotuTvMGiTlsA==}
 
+  zod@4.6.2:
+    resolution: {integrity: sha512-lh5RCAGFa1Cm2hjtNwLQhSs/AsqdWnTQaBER9fEwN/88pSh7KOtJavtBx/0VlkN/uFd61SwYmljLMDAsHlvzBQ==}
+
 snapshots:
 
   '@alloc/quick-lru@5.2.0': {}
@@ -7937,10 +7940,10 @@ snapshots:
       kysely: 0.28.17
       pg: 8.20.0
 
-  drizzle-zod@0.8.3(drizzle-orm@0.45.2(@libsql/client@0.18.0)(@prisma/client@5.22.0)(@types/pg@8.20.0)(better-sqlite3@12.10.0)(kysely@0.28.17)(pg@8.20.0))(zod@4.5.4):
+  drizzle-zod@0.8.3(drizzle-orm@0.45.2(@libsql/client@0.18.0)(@prisma/client@5.22.0)(@types/pg@8.20.0)(better-sqlite3@12.10.0)(kysely@0.28.17)(pg@8.20.0))(zod@4.6.2):
     dependencies:
       drizzle-orm: 0.45.2(@libsql/client@0.18.0)(@prisma/client@5.22.0)(@types/pg@8.20.0)(better-sqlite3@12.10.0)(kysely@0.28.17)(pg@8.20.0)
-      zod: 4.5.4
+      zod: 4.6.2
 
   dunder-proto@1.0.1:
     dependencies:
@@ -8297,8 +8300,8 @@ snapshots:
       '@babel/parser': 7.29.3
       eslint: 10.10.0(jiti@2.7.0)
       hermes-parser: 0.25.1
-      zod: 4.4.3
-      zod-validation-error: 4.0.2(zod@4.4.3)
+      zod: 4.5.4
+      zod-validation-error: 4.0.2(zod@4.5.4)
     transitivePeerDependencies:
       - supports-color
 
@@ -10061,10 +10064,12 @@ snapshots:
       cookie: 1.1.1
       youch-core: 0.3.3
 
-  zod-validation-error@4.0.2(zod@4.4.3):
+  zod-validation-error@4.0.2(zod@4.5.4):
     dependencies:
-      zod: 4.4.3
+      zod: 4.5.4
 
   zod@4.4.3: {}
 
   zod@4.5.4: {}
+
+  zod@4.6.2: {}
