@@ -234,11 +234,11 @@ importers:
         specifier: 'catalog:'
         version: 0.18.0
       drizzle-orm:
-        specifier: ^0.45.3
-        version: 0.45.3(@libsql/client@0.18.0)(@prisma/client@5.22.0)(@types/pg@8.20.0)(better-sqlite3@12.10.0)(kysely@0.28.17)(pg@8.20.0)
+        specifier: ^0.45.4
+        version: 0.45.4(@libsql/client@0.18.0)(@prisma/client@5.22.0)(@types/pg@8.20.0)(better-sqlite3@12.10.0)(kysely@0.28.17)(pg@8.20.0)
       drizzle-zod:
         specifier: ^0.8.3
-        version: 0.8.3(drizzle-orm@0.45.3(@libsql/client@0.18.0)(@prisma/client@5.22.0)(@types/pg@8.20.0)(better-sqlite3@12.10.0)(kysely@0.28.17)(pg@8.20.0))(zod@4.6.5)
+        version: 0.8.3(drizzle-orm@0.45.4(@libsql/client@0.18.0)(@prisma/client@5.22.0)(@types/pg@8.20.0)(better-sqlite3@12.10.0)(kysely@0.28.17)(pg@8.20.0))(zod@4.6.5)
       zod:
         specifier: 'catalog:'
         version: 4.6.5
@@ -3228,8 +3228,8 @@ packages:
       sqlite3:
         optional: true
 
-  drizzle-orm@0.45.3:
-    resolution: {integrity: sha512-CAloER21cDdcgZ1OmjrZX82EeRNsdP+y0onX/eyoYDaYzki/adrAa91lzM5jWh7zZPK4qUbw/6LGv9J+A+uizA==}
+  drizzle-orm@0.45.4:
+    resolution: {integrity: sha512-NiM1YZpJ2UxyeE67DpDDZ+Tsw4YLX3trSlkNT7Tm9eKoUNb1LvaAaQzXgYQsWs+AQ9TUmmwMmBOCXuqqxUWKKQ==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
       '@cloudflare/workers-types': '>=4'
@@ -7872,7 +7872,7 @@ snapshots:
       kysely: 0.28.17
       pg: 8.20.0
 
-  drizzle-orm@0.45.3(@libsql/client@0.18.0)(@prisma/client@5.22.0)(@types/pg@8.20.0)(better-sqlite3@12.10.0)(kysely@0.28.17)(pg@8.20.0):
+  drizzle-orm@0.45.4(@libsql/client@0.18.0)(@prisma/client@5.22.0)(@types/pg@8.20.0)(better-sqlite3@12.10.0)(kysely@0.28.17)(pg@8.20.0):
     optionalDependencies:
       '@libsql/client': 0.18.0
       '@prisma/client': 5.22.0
@@ -7881,9 +7881,9 @@ snapshots:
       kysely: 0.28.17
       pg: 8.20.0
 
-  drizzle-zod@0.8.3(drizzle-orm@0.45.3(@libsql/client@0.18.0)(@prisma/client@5.22.0)(@types/pg@8.20.0)(better-sqlite3@12.10.0)(kysely@0.28.17)(pg@8.20.0))(zod@4.6.5):
+  drizzle-zod@0.8.3(drizzle-orm@0.45.4(@libsql/client@0.18.0)(@prisma/client@5.22.0)(@types/pg@8.20.0)(better-sqlite3@12.10.0)(kysely@0.28.17)(pg@8.20.0))(zod@4.6.5):
     dependencies:
-      drizzle-orm: 0.45.3(@libsql/client@0.18.0)(@prisma/client@5.22.0)(@types/pg@8.20.0)(better-sqlite3@12.10.0)(kysely@0.28.17)(pg@8.20.0)
+      drizzle-orm: 0.45.4(@libsql/client@0.18.0)(@prisma/client@5.22.0)(@types/pg@8.20.0)(better-sqlite3@12.10.0)(kysely@0.28.17)(pg@8.20.0)
       zod: 4.6.5
 
   dunder-proto@1.0.1:
