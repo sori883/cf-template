@@ -24,7 +24,7 @@
     "@acme/auth": "workspace:*",
     "@acme/db": "workspace:*",
     "@cloudflare/vite-plugin": "^1.67.0",
-    "@tailwindcss/vite": "^4.3.3",
+    "@tailwindcss/vite": "^4.3.4",
     "@tanstack/react-devtools": "latest",
     "@tanstack/react-router": "latest",
     "@tanstack/react-router-devtools": "latest",
@@ -34,7 +34,7 @@
     "lucide-react": "^1.66.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
-    "tailwindcss": "^4.3.3"
+    "tailwindcss": "^4.3.4"
   },
   "devDependencies": {
     "@acme/eslint-config": "workspace:^",
