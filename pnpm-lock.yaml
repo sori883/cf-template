@@ -70,7 +70,7 @@ importers:
         version: link:../../packages/db
       '@cloudflare/vite-plugin':
         specifier: ^1.70.2
-        version: 1.70.2(@types/node@26.6.11)(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0))(workerd@1.20261123.1)(wrangler@4.167.0(@types/node@26.6.11)(vitest@5.1.1(@types/node@26.6.11)(jsdom@31.0.1(@noble/hashes@2.2.0))(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0))))
+        version: 1.70.2(@types/node@26.6.11)(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0))(workerd@1.20261123.1)(wrangler@4.167.0(@types/node@26.6.11)(vitest@5.1.2(@types/node@26.6.11)(jsdom@31.0.1(@noble/hashes@2.2.0))(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0))))
       '@tailwindcss/vite':
         specifier: ^4.3.5
         version: 4.3.5(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0))
@@ -157,11 +157,11 @@ importers:
         specifier: ^8.3.8
         version: 8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0)
       vitest:
-        specifier: ^5.1.1
-        version: 5.1.1(@types/node@26.6.11)(jsdom@31.0.1(@noble/hashes@2.2.0))(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0))
+        specifier: ^5.1.2
+        version: 5.1.2(@types/node@26.6.11)(jsdom@31.0.1(@noble/hashes@2.2.0))(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0))
       wrangler:
         specifier: ^4.167.0
-        version: 4.167.0(@types/node@26.6.11)(vitest@5.1.1(@types/node@26.6.11)(jsdom@31.0.1(@noble/hashes@2.2.0))(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0)))
+        version: 4.167.0(@types/node@26.6.11)(vitest@5.1.2(@types/node@26.6.11)(jsdom@31.0.1(@noble/hashes@2.2.0))(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0)))
 
   packages/api:
     dependencies:
@@ -2593,8 +2593,8 @@ packages:
       vite:
         optional: true
 
-  '@vitest/mocker@5.1.1':
-    resolution: {integrity: sha512-b2OgTB4+3ImWIVafXKazJXwLKwQxUNnix6b3xUvUTMh7RyXlrtzoxfZr8aEz9zkHOMAS4K5lu3TvFWoiVeVTQg==}
+  '@vitest/mocker@5.1.2':
+    resolution: {integrity: sha512-UGc97wUIy0Ji2+9GxzHEJiOhiwkaukgE7VYcUNnjpX3sWnwQ8XogmNXX4WyOukxYgKb8Nh2XFa7KId0ZjpmVhQ==}
     peerDependencies:
       msw: ^2.4.9 || ^3.0.0
       vite: ^6.0.0 || ^7.0.0 || ^8.0.0
@@ -2616,8 +2616,8 @@ packages:
   '@vitest/spy@4.1.11':
     resolution: {integrity: sha512-apNa/prQy2qCeywhnixOHPRCgGNhvg7T4Dapfl1GahLp/R+uhBm5cPyFoNVyqsNd2h1nJxL6BqqdIjiABL60YA==}
 
-  '@vitest/spy@5.1.1':
-    resolution: {integrity: sha512-6K8C6alQG1/Yc8/ZI22iJS7JEsxPdVzqtqDq+/xM4Z0mGVykemMVjLhqMy/q6/IHYG3kKD8hKSwRen/ZdyI9vQ==}
+  '@vitest/spy@5.1.2':
+    resolution: {integrity: sha512-PQl0/3+p9GaY71+MHywN6oyHfLhVDD5kcbm7oNRldA2F0ExMU3S8RQdnpteJ9gFAdK5P6KCgE6LqCpUgy57KzA==}
 
   '@vitest/utils@4.1.11':
     resolution: {integrity: sha512-zTCVGpyFsGWBhllOyKlTw/vnr6D9qxsfSDyfbyZmTyjHw5N/VuvzHpHoQjm2ZJzn4RJgx5w4r7V0er69CmLgPQ==}
@@ -4112,9 +4112,6 @@ packages:
   magic-string@0.30.21:
     resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
 
-  magic-string@1.4.3:
-    resolution: {integrity: sha512-z12OxmaPGE0F4xlpGdjuAUckipLpQlTAuAmyGhNoD7ODpYUzvDfvtxUbjM/jwznyP178oju/KDdyi220wNJ0RQ==}
-
   magic-string@1.4.5:
     resolution: {integrity: sha512-oLLC2+YvQUfAa+vxoufE/yc1icb87M9iXIRqAoR/2EhE/8cb3SF/+Gi0c2By1B+5Vz2e2vQtUvHiu1+63Znh+w==}
 
@@ -5051,20 +5048,20 @@ packages:
       jsdom:
         optional: true
 
-  vitest@5.1.1:
-    resolution: {integrity: sha512-trVmzUFOSraCZcI3uZIMD5FqBh4atFkC/XuJP/IU7qtyQay0FCs3Ia+0QiQ2JJwGyWG/xrcBoJNel2+O7kEZ0g==}
+  vitest@5.1.2:
+    resolution: {integrity: sha512-VIa2wXV208WraXUbzH+dQUrGcFpPuaiRA8HlhXS8R6/sy9cynw6OMqGj8fmAlH1hot7huTCtWUE14+FdXU3eLw==}
     engines: {node: ^22.12.0 || ^24.0.0 || >=26.0.0}
     hasBin: true
     peerDependencies:
       '@edge-runtime/vm': '*'
       '@opentelemetry/api': ^1.9.0
       '@types/node': ^22.0.0 || >=24.0.0
-      '@vitest/browser-playwright': 5.1.1
-      '@vitest/browser-preview': 5.1.1
+      '@vitest/browser-playwright': 5.1.2
+      '@vitest/browser-preview': 5.1.2
       '@vitest/browser-webdriverio': ^5.0.0-beta.5 || >=5.0.0
-      '@vitest/coverage-istanbul': 5.1.1
-      '@vitest/coverage-v8': 5.1.1
-      '@vitest/ui': 5.1.1
+      '@vitest/coverage-istanbul': 5.1.2
+      '@vitest/coverage-v8': 5.1.2
+      '@vitest/ui': 5.1.2
       happy-dom: '*'
       jsdom: '*'
       vite: ^6.4.0 || ^7.0.0 || ^8.0.0
@@ -5703,13 +5700,13 @@ snapshots:
     optionalDependencies:
       workerd: 1.20261123.1
 
-  '@cloudflare/vite-plugin@1.70.2(@types/node@26.6.11)(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0))(workerd@1.20261123.1)(wrangler@4.167.0(@types/node@26.6.11)(vitest@5.1.1(@types/node@26.6.11)(jsdom@31.0.1(@noble/hashes@2.2.0))(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0))))':
+  '@cloudflare/vite-plugin@1.70.2(@types/node@26.6.11)(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0))(workerd@1.20261123.1)(wrangler@4.167.0(@types/node@26.6.11)(vitest@5.1.2(@types/node@26.6.11)(jsdom@31.0.1(@noble/hashes@2.2.0))(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0))))':
     dependencies:
       '@cloudflare/unenv-preset': 2.16.2(unenv@2.0.0-rc.24)(workerd@1.20261123.1)
       miniflare: 5.20261123.1-beta(@types/node@26.6.11)
       unenv: 2.0.0-rc.24
       vite: 8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0)
-      wrangler: 4.167.0(@types/node@26.6.11)(vitest@5.1.1(@types/node@26.6.11)(jsdom@31.0.1(@noble/hashes@2.2.0))(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0)))
+      wrangler: 4.167.0(@types/node@26.6.11)(vitest@5.1.2(@types/node@26.6.11)(jsdom@31.0.1(@noble/hashes@2.2.0))(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0)))
       ws: 8.22.0
     transitivePeerDependencies:
       - '@types/node'
@@ -5733,14 +5730,14 @@ snapshots:
   '@cloudflare/workerd-windows-64@1.20261123.1':
     optional: true
 
-  '@cloudflare/workers-utils@0.57.0(vitest@5.1.1(@types/node@26.6.11)(jsdom@31.0.1(@noble/hashes@2.2.0))(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0)))':
+  '@cloudflare/workers-utils@0.57.0(vitest@5.1.2(@types/node@26.6.11)(jsdom@31.0.1(@noble/hashes@2.2.0))(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0)))':
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       chalk: 5.3.0
       dotenv: 16.3.1
       undici: 7.30.2
     optionalDependencies:
-      vitest: 5.1.1(@types/node@26.6.11)(jsdom@31.0.1(@noble/hashes@2.2.0))(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0))
+      vitest: 5.1.2(@types/node@26.6.11)(jsdom@31.0.1(@noble/hashes@2.2.0))(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0))
 
   '@cspotcode/source-map-support@0.8.1':
     dependencies:
@@ -6611,7 +6608,7 @@ snapshots:
       enhanced-resolve: 5.26.0
       jiti: 2.7.0
       lightningcss: 1.33.0
-      magic-string: 1.4.3
+      magic-string: 1.4.5
       source-map-js: 1.2.2
       tailwindcss: 4.3.5
 
@@ -7302,10 +7299,10 @@ snapshots:
       vite: 8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0)
     optional: true
 
-  '@vitest/mocker@5.1.1(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0))':
+  '@vitest/mocker@5.1.2(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0))':
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
-      '@vitest/spy': 5.1.1
+      '@vitest/spy': 5.1.2
       estree-walker: 3.0.3
       magic-string: 1.4.5
     optionalDependencies:
@@ -7333,7 +7330,7 @@ snapshots:
   '@vitest/spy@4.1.11':
     optional: true
 
-  '@vitest/spy@5.1.1': {}
+  '@vitest/spy@5.1.2': {}
 
   '@vitest/utils@4.1.11':
     dependencies:
@@ -8824,10 +8821,6 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.6.0
 
-  magic-string@1.4.3:
-    dependencies:
-      '@jridgewell/sourcemap-codec': 1.6.0
-
   magic-string@1.4.5:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.6.0
@@ -9788,10 +9781,10 @@ snapshots:
       - msw
     optional: true
 
-  vitest@5.1.1(@types/node@26.6.11)(jsdom@31.0.1(@noble/hashes@2.2.0))(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0)):
+  vitest@5.1.2(@types/node@26.6.11)(jsdom@31.0.1(@noble/hashes@2.2.0))(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0)):
     dependencies:
       '@types/chai': 5.2.3
-      '@vitest/mocker': 5.1.1(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0))
+      '@vitest/mocker': 5.1.2(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0))
       chai: 6.3.0
       es-module-lexer: 2.3.2
       expect-type: 1.4.0
@@ -9912,11 +9905,11 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20261123.1
       '@cloudflare/workerd-windows-64': 1.20261123.1
 
-  wrangler@4.167.0(@types/node@26.6.11)(vitest@5.1.1(@types/node@26.6.11)(jsdom@31.0.1(@noble/hashes@2.2.0))(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0))):
+  wrangler@4.167.0(@types/node@26.6.11)(vitest@5.1.2(@types/node@26.6.11)(jsdom@31.0.1(@noble/hashes@2.2.0))(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0))):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.5.1
       '@cloudflare/unenv-preset': 2.16.2(unenv@2.0.0-rc.24)(workerd@1.20261123.1)
-      '@cloudflare/workers-utils': 0.57.0(vitest@5.1.1(@types/node@26.6.11)(jsdom@31.0.1(@noble/hashes@2.2.0))(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0)))
+      '@cloudflare/workers-utils': 0.57.0(vitest@5.1.2(@types/node@26.6.11)(jsdom@31.0.1(@noble/hashes@2.2.0))(vite@8.3.8(@types/node@26.6.11)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.22.0)))
       '@cspotcode/source-map-support': 0.8.1
       '@types/yargs': 17.0.24
       cloudflare: 5.2.0
